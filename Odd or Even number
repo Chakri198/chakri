@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+    
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    
+    if (num % 2 == 0) {
+        printf("%d is an even number.\n", num);
+    } else {
+        printf("%d is an odd number.\n", num);
+    }
+    
+    return 0;
+}
+
+OUTPUT:
+1.Enter an integer: 5
+ 5 is an odd number.
+2.Enter an integer: 8
+ 8 is an even number.
